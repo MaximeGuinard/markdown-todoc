@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'Recoleta-SemiBold';
+    src: url('/font/Recoleta-SemiBold.woff2') format('woff2'), /* Modern Browsers */
+         url('/font/Recoleta-SemiBold.woff') format('woff'); /* Older Browsers */
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Recoleta-SemiBold', Arial, sans-serif !important;
+    background-color: #f6f6f6 !important; /* Votre blanc */
+    margin: 0 !important;
+    padding: 20px !important;
+}
+
+.container {
+    max-width: 900px !important;
+    margin: auto !important;
+    background: #ffffff !important; /* Couleur de fond blanche pour le conteneur */
+    padding: 30px !important;
+    border-radius: 8px !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1) !important;
+    position: relative !important;
+}
+
+h1 {
+    color: #070616 !important; /* Votre noir */
+    text-align: center !important;
+    font-size: 2.5rem !important;
+    margin-bottom: 20px !important;
+}
+
+h2 {
+    color: #070616 !important; /* Votre noir */
+    font-size: 1.8rem !important;
+    margin-bottom: 10px !important;
+    border-bottom: 2px solid #8a77eb !important; /* Soulignement pour les titres */
+    padding-bottom: 5px !important;
+}
+
+button {
+    padding: 10px 20px !important;
+    background-color: #8a77eb !important; /* Couleur principale */
+    color: white !important;
+    border: none !important;
+    border-radius: 4px !important;
+    cursor: pointer !important;
+    transition: background-color 0.3s ease !important;
+    font-size: 1rem !important;
+    display: block !important;
+    margin: 20px auto !important; /* Centre le bouton */
+}
+
+button:hover {
+    background-color: #6b63c4 !important; /* Couleur plus foncée au survol */
+}
+
+.content {
+    display: flex !important;
+    justify-content: space-between !important;
+    margin-top: 20px !important;
+}
+
+.markdown-section, .google-doc-section {
+    flex: 1 !important;
+    margin: 10px !important;
+    background: #f9f9f9 !important; /* Couleur légèrement différente pour les sections */
+    border-radius: 4px !important;
+    padding: 15px !important;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1) !important;
+}
+
+textarea {
+    width: 100% !important;
+    padding: 15px !important;
+    border-radius: 4px !important;
+    border: 1px solid #ccc !important;
+    resize: none !important;
+    font-size: 1rem !important; /* Taille de police du textarea */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1) !important;
+}
+
+#result {
+    margin-top: 20px !important;
+    font-size: 1rem !important;
+    white-space: pre-wrap !important; /* Pour garder les retours à la ligne */
+    padding: 10px !important;
+    background: #fff !important; /* Fond blanc pour le résultat */
+    border: 1px solid #e0e0e0 !important; /* Bordure légère pour délimiter le contenu */
+    border-radius: 4px !important;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1) !important;
+}
